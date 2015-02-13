@@ -15,7 +15,7 @@ The codes that are implemented are also limited and those are:<br>
 The server could be started with a few flags, which are:<br>
 	-p <port> for explicit port number<br>
 	-d for run as daemon<br>
-	-l <filename> for logging to filename<br>
+	-l <filename> for logging to filename (syslog is standard, but a bit broken atm)<br>
 	
 The configuration file (only used for port-number and possible directory change) is called .lab3-config.
 	
@@ -29,3 +29,5 @@ The server is supposed to be able to serve all kind of clients:<br>
 	- Google Chrome (Windows & Linux)<br>
 	- Konqueror (Linux only)<br>
 	- Lynx (Linux only)<br>
+	
+The file HTTPLog in Titron_Webserver can be looked at to see the syntax of the logging events.
