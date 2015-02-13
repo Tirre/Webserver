@@ -31,3 +31,4 @@ The server is supposed to be able to serve all kind of clients:<br>
 	- Lynx (Linux only)<br>
 	
 The file HTTPLog in Titron_Webserver can be looked at to see the syntax of the logging events.
+Also the pid-locking isn't working properly with the chroot implementation. Consider commenting the call to check_if_running().
