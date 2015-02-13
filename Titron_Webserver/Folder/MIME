@@ -1,0 +1,11 @@
+/aboutme.html: text/html; charset=us-ascii
+/error: inode/directory; charset=binary
+/favicon.ico: image/png; charset=binary
+/File: text/plain; charset=utf-8
+/google.jpeg: image/jpeg; charset=binary
+/HTTPLog: text/plain; charset=us-ascii
+/index.html: text/html; charset=us-ascii
+/lama.jpg: image/jpeg; charset=binary
+/error/bad_request.html: text/html; charset=us-ascii
+/error/not_found.html: text/html; charset=us-ascii
+/error/not_implemented.html: text/html; charset=us-ascii
