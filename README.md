@@ -17,6 +17,8 @@ The server could be started with a few flags, which are:<br>
 	-d for run as daemon<br>
 	-l <filename> for logging to filename<br>
 	
+The configuration file (only used for port-number and possible directory change) is called .lab3-config.
+	
 The webserver uses chroot (because it was needed for the laboraiton I did it for), but can be removed in exchange for a www-user.
 The server has some URL-validation, but commented in this version. Feel free to play around with it.
 The solution for figuring out MIME-type of file is somewhat bad, right now it's a file that keeps the information of "file -i *" of that directory.
